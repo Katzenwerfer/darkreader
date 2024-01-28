@@ -62,10 +62,6 @@ shreddit-comment-tree {
     background-color: var(--darkreader-bg--color-neutral-background) !important;
 }
 
-.text-neutral-content-strong {
-    color: var(--darkreader-text--color-neutral-content-strong) !important;
-}
-
 .bg-tone-2 {
     background-color: var(--darkreader-border--color-tone-2) !important;
 }
@@ -87,12 +83,33 @@ faceplate-menu {
     background-color: var(--darkreader-bg--color-neutral-background-strong) !important;
 }
 
+.hover\:bg-neutral-background-hover:hover {
+    background-color: var(--darkreader-bg--color-neutral-background-hover) !important;
+}
+
+/* Text */
 .text-secondary {
     color: var(--darkreader-text--color-secondary) !important;
 }
 
-.hover\:bg-neutral-background-hover:hover {
-    background-color: var(--darkreader-bg--color-neutral-background-hover) !important;
+.text-secondary-weak {
+    color: var(--darkreader-text--color-secondary-weak) !important;
+}
+
+.text-secondary-strong {
+    color: var(--darkreader-text--color-secondary-weak) !important;
+}
+
+.text-neutral-content {
+    color: var(--darkreader-text--color-neutral-content) !important;
+}
+
+.text-neutral-content-weak {
+    color: var(--darkreader-text--color-neutral-content-weak) !important;
+}
+
+.text-neutral-content-strong {
+    color: var(--darkreader-text--color-neutral-content-strong) !important;
 }
 
 /* IGNORE INLINE STYLE */
