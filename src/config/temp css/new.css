@@ -82,6 +82,19 @@ shreddit-comment-tree {
     border-color: var(--darkreader-border--color-tone-4) !important;
 }
 
+/* Dropdown menus */
+faceplate-menu {
+    background-color: var(--darkreader-bg--color-neutral-background-strong) !important;
+}
+
+.text-secondary {
+    color: var(--darkreader-text--color-secondary) !important;
+}
+
+.hover\:bg-neutral-background-hover:hover {
+    background-color: var(--darkreader-bg--color-neutral-background-hover) !important;
+}
+
 /* IGNORE INLINE STYLE */
 /* Reddit logo */
 #reddit-logo * {
