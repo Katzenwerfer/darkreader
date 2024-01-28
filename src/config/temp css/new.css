@@ -53,6 +53,35 @@
     border-color: var(--darkreader-bg--color-secondary-background-hover) !important;
 }
 
+/* Comment tree */
+shreddit-comment-tree {
+    background-color: var(--darkreader-bg--shreddit-content-background) !important;
+}
+
+.bg-neutral-background {
+    background-color: var(--darkreader-bg--color-neutral-background) !important;
+}
+
+.text-neutral-content-strong {
+    color: var(--darkreader-text--color-neutral-content-strong) !important;
+}
+
+.bg-tone-2 {
+    background-color: var(--darkreader-bg--color-tone-2) !important;
+}
+
+.bg-tone-4 {
+    background-color: var(--darkreader-bg--color-tone-4) !important;
+}
+
+.\[\&\>\.threadline\>\*\]\:border-tone-2>.threadline>* {
+    border-color: var(--darkreader-border--color-tone-2) !important;
+}
+
+.\[\&\>\.threadline\>\*\]\:border-tone-4>.threadline>* {
+    border-color: var(--darkreader-border--color-tone-4) !important;
+}
+
 /* IGNORE INLINE STYLE */
 /* Reddit logo */
 #reddit-logo * {
