@@ -162,6 +162,11 @@ auth-flow-modal {
     background-color: var(--darkreader-bg--color-secondary-background) !important;
 }
 
+/* Get reddit dialog box */
+#get-app-dialog {
+    background-color: var(--darkreader-bg--color-neutral-background-strong) !important;
+}
+
 /* IGNORE INLINE STYLE */
 /* SVGs */
 svg {
