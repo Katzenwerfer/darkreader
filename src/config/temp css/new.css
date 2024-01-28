@@ -113,14 +113,8 @@ faceplate-menu {
 }
 
 /* IGNORE INLINE STYLE */
-/* Reddit logo */
-#reddit-logo * {
-    display: unset;
-}
-
-/* Post hamburger menu */
-button>span>span>svg {
-    display: unset;
-}
+/* SVGs */
+svg
+svg *
 
 /* IGNORE IMAGE ANALYSIS */
