@@ -67,11 +67,11 @@ shreddit-comment-tree {
 }
 
 .bg-tone-2 {
-    background-color: var(--darkreader-bg--color-tone-2) !important;
+    background-color: var(--darkreader-border--color-tone-2) !important;
 }
 
 .bg-tone-4 {
-    background-color: var(--darkreader-bg--color-tone-4) !important;
+    background-color: var(--darkreader-border--color-tone-4) !important;
 }
 
 .\[\&\>\.threadline\>\*\]\:border-tone-2>.threadline>* {
