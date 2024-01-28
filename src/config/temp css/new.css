@@ -3,7 +3,23 @@
 /* INVERT */
 
 /* CSS */
+/* Reddit logo */
+.snoo-cls-9 {
+    fill: #842123 !important;
+}
+
+.snoo-cls-10 {
+    fill: #ff4500 !important;
+}
+
+.snoo-cls-11 {
+    fill: #ffc49c !important;
+}
 
 /* IGNORE INLINE STYLE */
+/* Reddit logo */
+#reddit-logo * {
+    display: unset;
+}
 
 /* IGNORE IMAGE ANALYSIS */
