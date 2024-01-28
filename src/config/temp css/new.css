@@ -122,6 +122,33 @@ faceplate-menu {
     background-color: var(--darkreader-bg--color-neutral-background-selected) !important;
 }
 
+/* Search bar */
+.bg-secondary-background {
+    background-color: var(--darkreader-bg--color-secondary-background) !important;
+}
+
+.bg-neutral-background-strong {
+    background-color: var(--darkreader-bg--color-neutral-background-strong) !important;
+}
+
+.border-neutral-border-weak {
+    border-color: var(--darkreader-border--color-neutral-border-weak) !important;
+}
+
+.label-container-hover {
+    --color-input-secondary-hover: var(--darkreader-bg--color-secondary-background-hover) !important
+}
+
+input {
+    color: var(--darkreader-text--color-neutral-content-strong) !important;
+}
+
+.button.button-activated {
+    --button-color-text: var(--darkreader-text--button-color-text-activated) !important;
+    --button-color-background: var(--darkreader-bg--button-color-background-activated) !important;
+    --button-border-color: var(--darkreader-border--button-border-color-activated) !important;
+}
+
 /* IGNORE INLINE STYLE */
 /* SVGs */
 svg {
