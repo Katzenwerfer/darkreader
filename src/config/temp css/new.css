@@ -97,7 +97,11 @@ faceplate-menu {
 }
 
 .text-secondary-strong {
-    color: var(--darkreader-text--color-secondary-weak) !important;
+    color: var(--darkreader-text--color-secondary-strong) !important;
+}
+
+.text-secondary-onBackground {
+    color: var(--darkreader-text--color-secondary-onBackground);
 }
 
 .text-neutral-content {
