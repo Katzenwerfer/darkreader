@@ -162,9 +162,9 @@ auth-flow-modal {
     background-color: var(--darkreader-bg--color-secondary-background) !important;
 }
 
-/* Get reddit dialog box */
-#get-app-dialog {
-    background-color: var(--darkreader-bg--color-neutral-background-strong) !important;
+/* Dialog boxes */
+.theme-beta {
+    --color-ui-modalbackground: var(--darkreader-bg--color-neutral-background-strong);
 }
 
 /* IGNORE INLINE STYLE */
