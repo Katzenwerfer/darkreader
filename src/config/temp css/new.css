@@ -149,6 +149,19 @@ input {
     --button-border-color: var(--darkreader-border--button-border-color-activated) !important;
 }
 
+/* Login modal */
+.bg-ui-modalbackground {
+    background-color: var(--darkreader-bg--color-neutral-background-selected) !important;
+}
+
+auth-flow-modal {
+    background-color: transparent !important;
+}
+
+:host([appearance="secondary"]) .label-container {
+    background-color: var(--darkreader-bg--color-secondary-background) !important;
+}
+
 /* IGNORE INLINE STYLE */
 /* SVGs */
 svg {
