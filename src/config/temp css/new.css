@@ -114,7 +114,12 @@ faceplate-menu {
 
 /* IGNORE INLINE STYLE */
 /* SVGs */
-svg
-svg *
+svg {
+    display: unset;
+}
+
+svg * {
+    display: unset;
+}
 
 /* IGNORE IMAGE ANALYSIS */
