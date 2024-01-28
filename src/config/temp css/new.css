@@ -20,6 +20,43 @@ button>span>span>svg {
     fill: #ffc49c !important;
 }
 
+/* Buttons */
+.button-secondary {
+    --button-border-color-default: var(--darkreader-text--color-button-secondary-border) !important;
+    --button-color-background-activated: var(--darkreader-bg--color-button-secondary-background-activated) !important;
+    --button-color-background-active: linear-gradient(var(--darkreader-bg--color-button-secondary-background-hover), var(--darkreader-bg--color-button-secondary-background-hover)) !important;
+    --button-color-background-default: var(--darkreader-bg--color-button-secondary-background) !important;
+    --button-color-background-disabled: var(--darkreader-bg--color-button-secondary-background-disabled) !important;
+    --button-color-background-focus: var(--darkreader-bg--color-button-secondary-background-focus) !important;
+    --button-color-background-hover: var(--darkreader-bg--color-button-secondary-background-hover) !important;
+    --button-color-text-activated: var(--darkreader-text--color-button-secondary-text-activated) !important;
+    --button-color-text-default: var(--darkreader-text--color-button-secondary-text) !important;
+    --button-color-text-disabled: var(--darkreader-text--color-button-secondary-text-disabled) !important;
+}
+
+.button-plain {
+    --button-color-background-hover: var(--darkreader-bg--color-button-plain-background-hover) !important;
+    --button-color-background-disabled: var(--darkreader-bg--color-button-plain-background-disabled) !important;
+    --button-color-background-activated: var(--darkreader-bg--color-button-plain-background-activated) !important;
+    --button-color-background-active: linear-gradient(var(--darkreader-bg--color-button-secondary-background-hover), var(--darkreader-bg--color-button-secondary-background-hover)) !important;
+    --button-color-text-default: var(--darkreader-text--color-button-plain-text) !important;
+    --button-color-text-disabled: var(--darkreader-text--color-button-plain-text-disabled) !important;
+    --button-color-text-activated: var(--darkreader-text--color-button-plain-text-activated) !important;
+    --button-color-text-hover: var(--darkreader-text--color-button-plain-text-hover) !important;
+}
+
+.hover\:text-secondary:hover {
+    color: var(--darkreader-text--color-secondary) !important;
+}
+
+.hover\:bg-secondary-background-hover:hover {
+    background-color: var(--darkreader-bg--color-secondary-background-hover) !important;
+}
+
+.hover\:border-secondary-background-hover:hover {
+    border-color: var(--darkreader-bg--color-secondary-background-hover) !important;
+}
+
 /* IGNORE INLINE STYLE */
 /* Reddit logo */
 #reddit-logo * {
