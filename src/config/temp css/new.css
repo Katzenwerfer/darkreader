@@ -116,6 +116,12 @@ faceplate-menu {
     color: var(--darkreader-text--color-neutral-content-strong) !important;
 }
 
+/* Sidebar buttons */
+.bg-neutral-background-selected,
+.bg-neutral-background-selected:hover {
+    background-color: var(--darkreader-bg--color-neutral-background-selected) !important;
+}
+
 /* IGNORE INLINE STYLE */
 /* SVGs */
 svg {
