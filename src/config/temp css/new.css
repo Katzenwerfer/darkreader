@@ -167,6 +167,12 @@ auth-flow-modal {
     --color-ui-modalbackground: var(--darkreader-bg--color-neutral-background-strong) !important;
 }
 
+/* Tooltips */
+#faceplate-tooltip {
+    --tooltip-content: var(--darkreader-text--color-neutral-content) !important;
+    --tooltip-background: var(--darkreader-bg--color-neutral-background-strong) !important;
+}
+
 /* IGNORE INLINE STYLE */
 /* SVGs */
 svg {
