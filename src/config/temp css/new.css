@@ -164,7 +164,7 @@ auth-flow-modal {
 
 /* Dialog boxes */
 .theme-beta {
-    --color-ui-modalbackground: var(--darkreader-bg--color-neutral-background-strong);
+    --color-ui-modalbackground: var(--darkreader-bg--color-neutral-background-strong) !important;
 }
 
 /* IGNORE INLINE STYLE */
